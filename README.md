@@ -35,6 +35,7 @@
 ## 📝 About the project
 This is a React.js template with TypeScript which I decided to leave in a repository to save time. So I don't need to install and configure some libraries, whenever I have to create a new project.
 
+<br>
 
 ## 🛠 Technologies
 - **[React.js](https://reactjs.org/)**
