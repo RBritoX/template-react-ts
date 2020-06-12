@@ -5,7 +5,7 @@ import * as S from './styles';
 const Home: React.FC = () => {
   return (
     <S.Container>
-      <h1>Hello World!</h1>
+      <h1>Hello React!</h1>
     </S.Container>
   );
 };

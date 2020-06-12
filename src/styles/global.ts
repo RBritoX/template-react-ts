@@ -25,11 +25,29 @@ export default createGlobalStyle`
   body,
   input,
   button {
-    font: 1.6rem "", sans-serif;
+    font: 1.6rem 'Roboto', sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6, strong {
-    font-weight: bold;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+/* Type Scale = Perfect Fifth (*1.5) */
+  h1 {
+    font-size: 81px;
+  }
+
+  h2 {
+    font-size: 54px;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  h4 {
+    font-size: 24px;
   }
 
   li {
