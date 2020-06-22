@@ -38,15 +38,20 @@ This is a React.js template with TypeScript which I decided to leave in a reposi
 <br>
 
 ## 🛠 Technologies
-- **[React.js](https://reactjs.org/)**
-- **[TypeScript](https://www.typescriptlang.org/)**
-- *[React Router DOM](https://reacttraining.com/react-router/web/guides/quick-start)*
-- *[Styled-Components](https://styled-components.com/)*
-- *[React Icons](https://react-icons.netlify.com/#/)*
-- *[Axios](https://nodemon.io/)*
-- *[ESLint](https://eslint.org/)*
-- *[Prettier](https://prettier.io/)*
-- *[EditorConfig](https://editorconfig.org/)*
+- ⚛️ **[React.js](https://reactjs.org/)**
+- 🟪 **[TypeScript](https://www.typescriptlang.org/)**
+- 💅 *[Styled-Components](https://styled-components.com/)*
+- 😁 *[Styled-Icons](https://styled-icons.js.org/)*
+- 🗺 *[React Router DOM](https://reacttraining.com/react-router/web/guides/quick-start)*
+- 🔌 *[Axios](https://nodemon.io/)*
+- 🃏 *[Jest](https://jestjs.io/)*
+- 📏 *[ESLint](https://eslint.org/)*
+- ✨ *[Prettier](https://prettier.io/)*
+- 🐭 *[EditorConfig](https://editorconfig.org/)*
+- 🐶 *[Husky](https://github.com/typicode/husky)*
+- 🚨 *[Commitlint](https://github.com/conventional-changelog/commitlint)*
+- 🚦 *[Commitizen](https://github.com/commitizen/cz-cli)*
+- 🚥 *[Lint-staged](https://github.com/okonet/lint-staged)*
 
 <br>
 
