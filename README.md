@@ -35,8 +35,6 @@
 ## 📝 About the project
 This is a React.js template with TypeScript which I decided to leave in a repository to save time. So I don't need to install and configure some libraries, whenever I have to create a new project.
 
-<br>
-
 ## 🛠 Technologies
 - ⚛️ **[React.js](https://reactjs.org/)**
 - 🟪 **[TypeScript](https://www.typescriptlang.org/)**
@@ -44,6 +42,7 @@ This is a React.js template with TypeScript which I decided to leave in a reposi
 - 😁 *[Styled-Icons](https://styled-icons.js.org/)*
 - 🗺 *[React Router DOM](https://reacttraining.com/react-router/web/guides/quick-start)*
 - 🔌 *[Axios](https://nodemon.io/)*
+- 📕 *[Storybook](https://storybook.js.org/)*
 - 🃏 *[Jest](https://jestjs.io/)*
 - 📏 *[ESLint](https://eslint.org/)*
 - ✨ *[Prettier](https://prettier.io/)*
@@ -52,8 +51,7 @@ This is a React.js template with TypeScript which I decided to leave in a reposi
 - 🚨 *[Commitlint](https://github.com/conventional-changelog/commitlint)*
 - 🚦 *[Commitizen](https://github.com/commitizen/cz-cli)*
 - 🚥 *[Lint-staged](https://github.com/okonet/lint-staged)*
-
-<br>
+- 🗂 *[Root-import](https://www.npmjs.com/package/babel-plugin-root-import)*
 
 ## 🏁 Starting the project
 Clone the project: `git clone https://github.com/RBritoX/template-react-ts`
