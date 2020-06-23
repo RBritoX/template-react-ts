@@ -30,7 +30,7 @@
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "generate": "scaffdog generate"
+    "creating": "scaffdog generate"
   },
   "eslintConfig": {
     "extends": "react-app"
