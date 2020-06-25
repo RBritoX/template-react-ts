@@ -2,13 +2,10 @@ import React from 'react';
 
 import * as S from './styles';
 
-import Button from '~/components/Button';
-
 const Home: React.FC = () => {
   return (
     <S.Container>
-      <h1>Hello React!</h1>
-      <Button />
+      <h1>Hello World</h1>
     </S.Container>
   );
 };

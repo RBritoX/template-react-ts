@@ -1,7 +1,10 @@
 import { createGlobalStyle } from 'styled-components';
+import { typography } from './typography';
 
 export default createGlobalStyle`
-  * {
+  *,
+  *::before,
+  *::after {
     margin: 0;
     padding: 0;
     outline: 0;
@@ -13,41 +16,45 @@ export default createGlobalStyle`
   }
 
   html,
-  body {
+  body,
+  #root {
     min-width: 100%;
-    min-height: 100%;
-    background: #eeeeee;
-    color: #222222;
-    text-rendering: optimizeLegibility !important;
-    -webkit-font-smoothing: antialiased !important;
+    height: 100%;
+    background: ${(props) => props.theme.colors.background};
+    color: ${(props) => props.theme.colors.text};
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-overflow-scrolling: touch;
   }
 
   body,
   input,
   button {
-    font: 1.6rem 'Roboto', sans-serif;
+    font: 1.6rem ${typography.type.text};
   }
 
   h1, h2, h3, h4, h5, h6, strong {
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: ${typography.weight.bold};
+    font-family: ${typography.type.title};
+    margin: 0;
+    padding: 0;
   }
 
-/* Type Scale = Perfect Fifth (*1.5) */
   h1 {
-    font-size: 81px;
+    font-size: ${typography.size.l3}px;
   }
 
   h2 {
-    font-size: 54px;
+    font-size: ${typography.size.l2}px;
   }
 
   h3 {
-    font-size: 36px;
+    font-size: ${typography.size.l1}px;
   }
 
-  h4 {
-    font-size: 24px;
+  h3 {
+    font-size: ${typography.size.m2}px;
   }
 
   li {

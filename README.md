@@ -46,9 +46,9 @@ This is a React.js template with TypeScript which I decided to leave in a reposi
 - 🟪 **[TypeScript](https://www.typescriptlang.org/)**
 - 💅 *[Styled-Components](https://styled-components.com/)*
 - 😁 *[Styled-Icons](https://styled-icons.js.org/)*
+- 🎨 *[Polished](https://polished.js.org/)*
 - 🗺 *[React Router DOM](https://reacttraining.com/react-router/web/guides/quick-start)*
 - 🔌 *[Axios](https://nodemon.io/)*
-- 📕 *[Storybook](https://storybook.js.org/)*
 - 🃏 *[Jest](https://jestjs.io/)*
 - 🐺 *[Scaffdog](https://github.com/cats-oss/scaffdog#scaffdog-generate)*
 - 📏 *[ESLint](https://eslint.org/)*
@@ -63,13 +63,16 @@ This is a React.js template with TypeScript which I decided to leave in a reposi
 ## ⚙️ How to use
 
 ### 🗄 Criar componente:
-Para criar um componente, basta rodar `yarn creating` e selecionar/responder as perguntas que irão aparecer no terminal para o 🐺 **Scaffdog** fazer o trabalho de forma automática. Ele irá criar uma pasta dentro de `src/components` com um arquivo para o index, outro para os estilos, outro para o storybook e outro para teste unitário.
+Para criar um componente, basta rodar `yarn creating` e selecionar/responder as perguntas que irão aparecer no terminal para o 🐺 **Scaffdog** fazer o trabalho de forma automática. Ele irá criar uma pasta dentro de `src/components` com um arquivo para o index e outro para os estilos.
 
 ### 🗃 Componentes:
-Deixei dois componentes prontos para serem usados: **Button** e **Input**. Ambos são totalmente customizados como exemplificado no arquivo principal. Esses componentes também servem de exemplo de como foi montado a estrutura das pastas e como estou utilizando o 📕 **Storybook** e 🃏 **Jest**.
+Deixei alguns componentes prontos para serem usados: **Header**, **Button** e **Input**. Todos são totalmente customizados como exemplificado no arquivo principal.
+
+### 🎨 Colors:
+As cores são definidas a partir do tema (light/dark) que estão na pasta `src/styles/theme`. Ambos também são totalmente customizados, podendo acrescentar ou remover qualquer cor, seguindo o padrão que já foi configurado, sendo necessário inserir o campo string no arquivo `src/styles/styled.d.ts`. Para usar essas cores em uma página ou componente, basta seguir o exemplo do arquivo global de estilos, exp.: `color: ${(props) => props.theme.colors.text};` e não precisa importar nada.
 
 ### 💾 Commitar o código:
-Para commitar o código, existem algumas regras que garantem a padronização do commit. Dessa forma, pode rodar normalmente `git add .`, depois `git commit` (sem o `-m ""`) mesmo. O 🐶 **Husky** foi configurado, junto com 🚨 **Commitlint**, 🚦**cz-cli** e 🚥 **Lint-staged**, dessa forma será feita algumas perguntas no terminal e na sequencia vão verificar algumas regras no código, por fim, pode rodar `git push -u origin master` normalmente.
+Para commitar o código, existem algumas regras que garantem a padronização do commit. Dessa forma, pode rodar normalmente `git add .`, depois `git commit` (sem o `-m ""` mesmo). O 🐶 **Husky** foi configurado, junto com 🚨 **Commitlint**, 🚦**cz-cli** e 🚥 **Lint-staged**, dessa forma será feita algumas perguntas no terminal e na sequencia vão verificar algumas regras no código, por fim, pode rodar `git push -u origin master` normalmente.
 
 ## 🏁 Starting the project
 Clone the project: `git clone https://github.com/RBritoX/template-react-ts`
@@ -82,13 +85,6 @@ $ yarn
 
 # to start the application on port 3000
 $ yarn start
-````
-
-📕 To run the **Storybook**, execute the following commands:
-
-````zsh
-# to start the Storybook on port 9009
-$ yarn storybook
 ````
 
 🧪 To run the **Tests**, execute the following commands:

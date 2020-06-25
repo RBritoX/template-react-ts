@@ -1,8 +1,8 @@
 ---
-name: 'component'
-description: 'Component template'
-message: 'Please enter the name of component to be created'
-root: './src/components'
+name: 'page'
+description: 'Page template'
+message: 'Please enter the name of page to be created'
+root: './src/pages'
 output: '**/*'
 ignore: []
 ---
