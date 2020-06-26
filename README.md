@@ -63,16 +63,16 @@ This is a React.js template with TypeScript which I decided to leave in a reposi
 ## ⚙️ How to use
 
 ### 🗄 Criar componente:
-Para criar um componente, basta rodar `yarn creating` e selecionar/responder as perguntas que irão aparecer no terminal para o 🐺 **Scaffdog** fazer o trabalho de forma automática. Ele irá criar uma pasta dentro de `src/components` com um arquivo para o index e outro para os estilos.
+To create a component, just run `yarn creating` and select / answer the questions that will appear in the terminal for 🐺 **Scaffdog** to do the job automatically. It will create a folder inside `src / components` with a file for the index and another for the styles.
 
 ### 🗃 Componentes:
-Deixei alguns componentes prontos para serem usados: **Header**, **Button** e **Input**. Todos são totalmente customizados como exemplificado no arquivo principal.
+Leave some components ready to be used: **Header**, Button and Input. All are fully customized as an example in the main file.
 
 ### 🎨 Colors:
-As cores são definidas a partir do tema (light/dark) que estão na pasta `src/styles/theme`. Ambos também são totalmente customizados, podendo acrescentar ou remover qualquer cor, seguindo o padrão que já foi configurado, sendo necessário inserir o campo string no arquivo `src/styles/styled.d.ts`. Para usar essas cores em uma página ou componente, basta seguir o exemplo do arquivo global de estilos, exp.: `color: ${(props) => props.theme.colors.text};` e não precisa importar nada.
+As cores are selected from the theme (light / dark), which are in the `src/styles/theme` folder. Both are also fully customized, they can be removed or removed in any color, following the pattern that has already been configured, being necessary to insert or string of field characters in the file `src/styles/styled.d.ts.` To use these cores on a page or component, just follow the example of a global style file, eg: `color: $ {(props) => props.theme.colors.text};` and you don't need to import anything.
 
 ### 💾 Commitar o código:
-Para commitar o código, existem algumas regras que garantem a padronização do commit. Dessa forma, pode rodar normalmente `git add .`, depois `git commit` (sem o `-m ""` mesmo). O 🐶 **Husky** foi configurado, junto com 🚨 **Commitlint**, 🚦**cz-cli** e 🚥 **Lint-staged**, dessa forma será feita algumas perguntas no terminal e na sequencia vão verificar algumas regras no código, por fim, pode rodar `git push -u origin master` normalmente.
+To confirm the code, there are some rules that guarantee the commit standardization. That way, you can normally run `git add .`, Then `git commit` (without the `-m ""`). 🐶 **Husky** was configured, along with 🚨 **Commitlint**, 🚦**cz-cli** e 🚥 **Lint-staged**, that way some questions will be asked in the terminal and then you will check some rules in the code, finally, you can run `git push -u origin master` normally.
 
 ## 🏁 Starting the project
 Clone the project: `git clone https://github.com/RBritoX/template-react-ts`
