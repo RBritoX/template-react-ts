@@ -6,7 +6,7 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   margin-bottom: 40px;
-  background: ${(props) => props.theme.colors.background};
+  background: ${(props) => props.theme.colors.backgroundSecondary};
   height: 56px;
 `;
 

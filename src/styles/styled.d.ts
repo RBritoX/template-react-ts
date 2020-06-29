@@ -8,11 +8,14 @@ declare module 'styled-components' {
       primary: string;
       secondary: string;
 
-      background: string;
-      card: string;
+      backgroundPrimary: string;
+      backgroundSecondary: string;
 
       theme: string;
       themeBg: sting;
+
+      inputBg: string;
+      placeholder: string;
 
       text: string;
 

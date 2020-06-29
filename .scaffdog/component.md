@@ -16,13 +16,15 @@ import * as S from './styles';
 
 interface Props {}
 
-export const {{ input | pascal }}: React.FC<Props> = (): JSX.Element => {
+const {{ input | pascal }}: React.FC<Props> = (): JSX.Element => {
   return (
     <S.Container>
       <h1>{{ input | pascal }}</h1>
     </S.Container>
   );
 };
+
+export default {{ input | pascal }};
 
 ```
 

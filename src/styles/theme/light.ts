@@ -5,8 +5,11 @@ export default {
     primary: '#FFCC73',
     secondary: '#3E4356',
 
-    background: '#F5F5F5',
-    card: '#EEEEEE',
+    backgroundPrimary: '#FFFFFF',
+    backgroundSecondary: '#EEEEEE',
+
+    inputBg: '#F5F5F5',
+    placeholder: '#999999',
 
     theme: '#F9F288',
     themeBg: '#7BB0DE',

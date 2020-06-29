@@ -20,7 +20,7 @@ export default createGlobalStyle`
   #root {
     min-width: 100%;
     height: 100%;
-    background: ${(props) => props.theme.colors.background};
+    background: ${(props) => props.theme.colors.backgroundPrimary};
     color: ${(props) => props.theme.colors.text};
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
